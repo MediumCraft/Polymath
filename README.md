@@ -2,6 +2,33 @@
 
 Polymath is a web server designed to host resource packs of the Oraxen plugin.
 
+## Beta Instructions
+(The original instructions still work, these instructions uses a script built alongside Polymath)
+
+- Clone the project
+``git clone git@github.com:MediumCraft/Polymath`` or ``git clone https://github.com/MediumCraft/Polymath``
+
+- Cd in the directory
+``cd ./Polymath``
+
+- Install required packages
+```
+cython
+aiohttp
+toml
+```
+
+- Run start script
+Windows Users:
+```
+polymath.bat
+```
+Linux Users:
+```
+./polymath.sh
+```
+
+
 ## How to use Polymath
 
 - Clone the project
